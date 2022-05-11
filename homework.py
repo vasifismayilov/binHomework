@@ -30,4 +30,25 @@
 #         new_i = ord(i)
 #         final.append(new_i)
 # 
-# print(*final)        
+# print(*final)      
+#   
+
+################################## SON TAPSIRIQLAR ###################################
+
+# 1 Istifadəçinin girdiyi stringi binary şəklində göstərin.
+
+# from ntpath import join
+# 
+# 
+# things = input('Bir cumle yazin: ')
+# 
+# con_binary = ' '.join(format(ord(c), 'b')for c in things)  
+# 
+# print(con_binary)
+
+# 2 Istifadəçi input olaraq color: rgb(127, 255, 12) şəklində CSS rəngi girəcək. Siz istifadəçinin girdiyi rəngi 16-lıq sistemdəki qarşılığına çevirin.
+
+# def rgb_to_hex(r, g, b):
+#   return ('{:X}{:X}{:X}').format(r, g, b)
+# 
+# print(rgb_to_hex(127, 255, 12))
